@@ -8,7 +8,7 @@ export const personalInfo = {
   name: "Shubham Karne",
   firstName: "Shubham",
   brandName: "Shubham Karne",
-  title: "Mechanical Engineer | Powertrain & Quality Engineering",
+  title: "Mechanical Design & Development Engineer",
   location: "Brandenburg an der Havel, Germany",
   phone: "+49 15510 691557",
   emails: {
@@ -16,7 +16,7 @@ export const personalInfo = {
     secondary: "shubham.karne111@gmail.com",
   },
   summary:
-    "M.Sc. Mechanical Engineering student at TH Brandenburg with a strong foundation in technical thermodynamics, fluid mechanics, and powertrain systems, plus 14+ months of industry experience in quality engineering and product design. Skilled in GD&T inspection, CAD (CATIA, Creo, SolidWorks), CAE simulation, and hydraulic system design, with a patent application filed for an automatic tire pressure regulation system.",
+    "M.Sc. Mechanical Engineering student at TH Brandenburg with a strong foundation in technical thermodynamics, fluid mechanics, and powertrain systems, plus 14+ months of industry experience in quality engineering and product design. Skilled in GD&T inspection, CAD (CATIA V5, CATIA V6, NX), CAE simulation, and hydraulic system design, with a patent application filed for an automatic tire pressure regulation system.",
   resumeUrl: "/Shubham_Karne_Resume.pdf",
 };
 
@@ -28,7 +28,7 @@ export const socialLinks = {
 
 export const heroContent = {
   greeting: "Hi, I'm Shubham Karne",
-  titleHighlight: "Mechanical Engineer — Powertrain & Precision Systems",
+  titleHighlight: "Mechanical Design & Development Engineer",
   subtitle:
     "I engineer precision quality systems and powertrain solutions — from GD&T inspection to hydraulic systems, CAE simulation, and drivetrain design.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
@@ -42,7 +42,7 @@ export const heroContent = {
 export const aboutContent = {
   heading: "Hello!",
   bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Shubham Karne</span>, a Mechanical Engineering M.Sc. student at TH Brandenburg with a background bridging precision quality assurance and hands-on product design, working toward R&D and vehicle development roles at a premium automotive OEM.`,
-  techStack: ["GD&T", "CATIA / Creo", "CAE Simulation"],
+  techStack: ["GD&T", "CATIA V5 / V6", "CAE Simulation"],
 };
 
 export const skillsContent = {
@@ -59,7 +59,7 @@ export const skillsContent = {
     {
       number: "02",
       title: "Design",
-      text: "Developing CAD models and system layouts using CATIA, Creo, and SolidWorks with GD&T referencing built in from the start.",
+      text: "Developing CAD models and system layouts using CATIA V5, CATIA V6 and NX with GD&T referencing built in from the start.",
     },
     {
       number: "03",
@@ -90,7 +90,7 @@ export const technicalSkills = {
     {
       title: "CAD & Design",
       skills: [
-        { name: "PTC Creo", level: 90 },
+        { name: "CATIA V5", level: 90 },
         { name: "SolidWorks", level: 85 },
         { name: "CATIA V6 (3DEXPERIENCE)", level: 75 },
         { name: "AutoCAD", level: 80 }
@@ -208,7 +208,7 @@ export const internshipsList = [
     organization: "Prorites Equipments Pvt. Ltd., Pune, India",
     role: "Design & Development Engineer",
     duration: "May 2024 – Mar 2025",
-    skills: ["Hydraulic System Design (2–80 bar)", "BOM Creation", "Engineering Change Management", "PTC Creo"],
+    skills: ["Hydraulic System Design (2–80 bar)", "BOM Creation", "Engineering Change Management", "CATIA V5"],
     tech: ["HPCL Mangalore", "Ab-Mauri", "~90% on-time delivery", "~20% faster iteration cycles"]
   }
 ];
@@ -233,7 +233,7 @@ export const projects = [
     title: "Automatic Tire Pressure Regulation System",
     description:
       "Designed a fully automatic tire pressure regulation system for military vehicles, enabling simultaneous tire inflation across changing terrain and load conditions. Ran design and performance simulations across multiple operating scenarios (load, terrain, temperature). Patent application filed with the Indian Patent Office; examination ongoing.",
-    techTags: ["PTC Creo", "System Design", "Performance Simulation", "Defense Engineering"],
+    techTags: ["CATIA V5", "System Design", "Performance Simulation", "Defense Engineering"],
     links: {},
     isFlagship: true,
   },

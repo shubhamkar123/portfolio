@@ -46,6 +46,30 @@ const ProjectCard = ({ project, aosDelay }) => (
         {project.description}
       </p>
 
+      {/* First-principles case study: problem → reasoning → decision → result */}
+      {project.caseStudy && (
+        <dl className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          {project.caseStudy.map((step) => (
+            <div key={step.label} className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+              <dt className="text-[11px] font-bold tracking-widest uppercase text-blue-400 mb-2">{step.label}</dt>
+              <dd className="text-white/70 text-sm leading-relaxed">{step.text}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+
+      {/* Project images */}
+      {project.images && (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          {project.images.map((img) => (
+            <figure key={img.src} className="rounded-xl overflow-hidden border border-white/10 bg-[#1a1a1a]">
+              <img src={img.src} alt={img.caption} loading="lazy" className="w-full h-48 object-contain bg-[#3a3a3a]" />
+              <figcaption className="px-3 py-2 text-xs text-white/50">{img.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+
       {/* Tech Tags */}
       <div className="flex flex-wrap gap-2 mb-8">
         {project.techTags.map((tag) => (
